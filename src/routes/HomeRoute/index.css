@@ -33,6 +33,9 @@
   min-height: 20vh;
   border-bottom: 0.5px solid #c6c6c8;
   background-color: #fafafa;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .loader-container {

@@ -49,7 +49,7 @@ const SearchComponent = () => (
           <button
             className="search-button-search-component"
             type="button"
-            data-testid="searchIcon"
+            /* testid="searchIcon" */
             onClick={onClickSearchSubmit}
           >
             <FaSearch />

@@ -94,9 +94,9 @@ class HomeRoute extends Component {
     switch (userStoriesApiStatus) {
       case apiStatusConstants.success:
         return (
-          <div className="userStories-container">
+          <ul className="userStories-container">
             <UserStoriesComponent userStories={userStories} />
-          </div>
+          </ul>
         )
       case apiStatusConstants.failure:
         return (
@@ -106,7 +106,7 @@ class HomeRoute extends Component {
         )
       case apiStatusConstants.inProgress:
         return (
-          <div className="loader-container" data-testid="loader">
+          <div className="loader-container" /* testid="loader" */>
             <Loader type="TailSpin" color="#4094EF" height={50} width={50} />
           </div>
         )
@@ -142,7 +142,7 @@ class HomeRoute extends Component {
         )
       case apiStatusConstants.inProgress:
         return (
-          <div className="loader-container" data-testid="loader">
+          <div className="loader-container" /* testid="loader" */>
             <Loader type="TailSpin" color="#4094EF" height={50} width={50} />
           </div>
         )

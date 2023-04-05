@@ -12,6 +12,7 @@ const ProfileComponent = props => {
     match.path === '/my-profile' ? 'my profile' : 'user profile'
   const altValueStory = match.path === '/my-profile' ? 'my story' : 'user story'
   const altValuePost = match.path === '/my-profile' ? 'my post' : 'user post'
+  console.log(altValueProfilePic)
 
   const renderPostDetails = () => {
     const {posts} = userProfileData
@@ -81,8 +82,8 @@ const ProfileComponent = props => {
           <div className="desktop_view">
             <img
               src={userProfileData.profile_pic}
-              alt="user profile"
               className="profile_pic"
+              alt={altValueProfilePic}
             />
             <div className="profile_container">
               <h1 className="profile_username">{userProfileData.user_name}</h1>
@@ -107,9 +108,9 @@ const ProfileComponent = props => {
                 </li>
               </ul>
               <div className="profile_bio_container">
-                <h1 className="profile_bio_username">
-                  {userProfileData.user_name}
-                </h1>
+                <p className="profile_bio_username">
+                  {userProfileData.user_id}
+                </p>
                 <p className="profile_bio">{userProfileData.user_bio}</p>
               </div>
             </div>

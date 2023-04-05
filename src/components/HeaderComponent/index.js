@@ -100,7 +100,7 @@ const HeaderComponent = props => (
                     type="button"
                     className="search_btn"
                     onClick={onClickSearch}
-                    data-testid="searchIcon"
+                    /* testid="searchIcon" */
                   >
                     <FaSearch />
                   </button>

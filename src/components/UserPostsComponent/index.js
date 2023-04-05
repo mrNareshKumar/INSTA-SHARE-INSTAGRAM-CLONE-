@@ -88,18 +88,16 @@ class UserPostsComponent extends Component {
                 className="post_card_icon"
                 type="button"
                 onClick={this.likeClicked}
-                data-testid="likeIcon"
               >
-                <BsHeart data-testid="likeIcon" size={24} />
+                <BsHeart testid="likeIcon" size={24} />
               </button>
             ) : (
               <button
                 className="post_card_icon"
                 onClick={this.unlikeClicked}
                 type="button"
-                data-testid="unLikeIcon"
               >
-                <FcLike data-testid="unLikeIcon" size={24} />
+                <FcLike testid="unLikeIcon" size={24} />
               </button>
             )}
             <li className="post_card_icon">

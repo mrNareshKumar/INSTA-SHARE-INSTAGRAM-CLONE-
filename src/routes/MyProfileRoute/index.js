@@ -55,7 +55,7 @@ class MyProfileRoute extends Component {
     const {userProfileData} = this.state
     return (
       <>
-        <ProfileComponent userProfileData={userProfileData} alt="my post" />
+        <ProfileComponent userProfileData={userProfileData} />
       </>
     )
   }
