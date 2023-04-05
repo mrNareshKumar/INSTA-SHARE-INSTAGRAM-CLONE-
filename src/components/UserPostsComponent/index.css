@@ -1,0 +1,218 @@
+.post_card {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .post_card {
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px 4px 0px 0px;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+}
+.post_card_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 24px;
+  padding: 14px;
+}
+.post_card_profile_container {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  );
+}
+.post_card_user_profile {
+  width: 28px;
+  height: 28px;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+}
+.post_card_username {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  letter-spacing: -0.1px;
+  color: #262626;
+  padding-left: 8px;
+}
+.post_card_post_image {
+  width: 100%;
+  height: 375px;
+}
+@media screen and (min-width: 768px) {
+  .post_card_post_image {
+    width: 100%;
+    height: 614px;
+  }
+}
+.post_card_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 24px;
+  padding-top: 10px;
+}
+.post_card_icon_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.post_card_icon {
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.post_card_likesCount {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  letter-spacing: -0.07px;
+  color: #262626;
+  padding: 0px;
+  padding-top: 3px;
+  margin: 0px;
+}
+.post_card_caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+  letter-spacing: -0.07px;
+  color: #262626;
+  padding: 0px;
+  padding-top: 3px;
+  margin: 0px;
+}
+.post_card_comments_list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.post_card_comment {
+  display: flex;
+  flex-direction: row;
+}
+.post_card_comment_username {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  letter-spacing: -0.1px;
+  color: #262626;
+  padding: 0px;
+  padding-top: 3px;
+  margin: 0px;
+}
+.post_card_comment_comment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  letter-spacing: -0.1px;
+  color: #262626;
+  padding: 0px;
+  padding-top: 3px;
+  padding-left: 5px;
+  margin: 0px;
+}
+.post_card_created_At {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+  letter-spacing: 0.05px;
+  color: #989898;
+}
+.post_loader_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 32px;
+  min-height: 90vh;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 32px;
+  min-height: 90vh;
+}
+@media screen and (max-width: 767px) {
+  .failure-view-container {
+    border: none;
+    border-radius: none;
+  }
+}
+.failure_img {
+  height: 48px;
+  width: 48px;
+  border-radius: 0px;
+}
+.failure-heading-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #262626;
+}
+.try_again_button {
+  width: 102px;
+  height: 32px;
+  background: #4094ef;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+

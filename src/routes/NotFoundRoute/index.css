@@ -1,0 +1,83 @@
+.notfound_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+.error_img {
+  height: 157px;
+  width: 173px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #989898;
+}
+
+.button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  /* Light / base / white */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 24px;
+  width: 114px;
+  height: 32px;
+  background: #4094ef;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+  .error_img {
+    height: 269px;
+    width: 297px;
+  }
+  .heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .description {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .button {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 12px 32px;
+    width: 141px;
+    height: 48px;
+  }
+}
