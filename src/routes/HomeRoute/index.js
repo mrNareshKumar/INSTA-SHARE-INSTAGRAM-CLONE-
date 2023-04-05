@@ -94,9 +94,9 @@ class HomeRoute extends Component {
     switch (userStoriesApiStatus) {
       case apiStatusConstants.success:
         return (
-          <ul className="userStories-container">
+          <div className="userStories-container">
             <UserStoriesComponent userStories={userStories} />
-          </ul>
+          </div>
         )
       case apiStatusConstants.failure:
         return (

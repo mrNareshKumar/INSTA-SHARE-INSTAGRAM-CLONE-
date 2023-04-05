@@ -74,9 +74,7 @@ const ProfileComponent = props => {
               </ul>
             </div>
             <div className="profile_bio_container">
-              <p className="profile_bio_username">
-                {userProfileData.user_id}
-              </p>
+              <p className="profile_bio_username">{userProfileData.user_id}</p>
               <p className="profile_bio">{userProfileData.user_bio}</p>
             </div>
           </div>
